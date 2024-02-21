@@ -30,8 +30,8 @@ alert(g)
  document.write(username);
 
 // Q:2
-var myName=" Ayela Imtiaz"
-document.write(myName);
+
+document.write ("<br> Ayela Imtiaz");
 
 // Q:3
 var message= "Hello World"
@@ -63,8 +63,8 @@ var book= " A Smarter way to learn JavaScript"
 alert("I am trying to learn from the Book"+ book);
 
 // Q:8
-var text= " Yah! I can write HTML content through JavaScript"
-document.write(text);
+
+document.write( "<br> Yah! I can write HTML content through JavaScript");
 
        // Chapter no 3 "VARIABLES FOR NUMBERS"
 
@@ -78,14 +78,10 @@ alert("you have visited this site"+ visit);
 
 // Q:3
 var birth=" 1999"
-document.write(" My birth year is"+ birth);
+document.write("<br> My birth year is 1999");
 
 // Q:4
-var visitorname="John Doe"
-var product =" ordered"
-var quantity=" 5 T-shirts"
-
-document.write(visitorname+product+quantity+ " on XYZ clothing store");
+document.write("<br> John Doe ordered 5 T-shirts on XYZ clothing store");
 
 // WORD
 // chapter no 1 (ALERT)
@@ -108,7 +104,26 @@ alert("message:"+message)
 
 // chapter no 2 (variables for string)
 
-// 1
+// 1 (camel case format)
+document.write("<br>Camel case format: ayela Imtiaz")
+
+// 3
+var teamname = " The System Squad"
+alert("team name:"+ teamname);
+
+// 4
+var charlie="bestman"
+
+// chapter no 3 (Variables of number)
+
+// 5
+var merchTOtal = "100"
+var shippingCharge = "10"
+document.write("<br> 100 + 10")
+
+
+
+
 
 
 
